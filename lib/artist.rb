@@ -33,6 +33,6 @@
   end
 
   def print_songs
-  @songs.map {|song| puts song }
+  @songs.detect{|song| puts song }
   end
 end
