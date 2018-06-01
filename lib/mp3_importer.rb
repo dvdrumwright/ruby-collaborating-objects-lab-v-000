@@ -1,4 +1,4 @@
- class MP3Importer 
+class MP3Importer 
    
  attr_accessor :path 
    
@@ -18,7 +18,7 @@
      Song.new_by_filename(a)
      end 
     end 
-   
    end 
    
+   end
    
