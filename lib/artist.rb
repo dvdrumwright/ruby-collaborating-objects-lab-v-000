@@ -33,6 +33,6 @@
   end
 
   def print_songs
-    self.songs.each {|song| song.name}
+    self.songs.each {|song| song.songs}
   end
 end
